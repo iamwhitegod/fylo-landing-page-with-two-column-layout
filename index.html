@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style></style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo" />
+      </div>
+
+      <ul class="list">
+        <li class="item"><a href="#">Features</a></li>
+        <li class="item"><a href="#">Team</a></li>
+        <li class="item"><a href="#">Sign In</a></li>
+      </ul>
+    </nav>
+
+    <section class="all-files">
+      <div class="row">
+        <div class="all-files__container">
+          <div class="all-files__content">
+            <h1 class="all-files__title">
+              All your files in one secure location, accessible anywhere.
+            </h1>
+            <p class="all-files__desc">
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+
+            <form action="#" method="post" class="all-files__form">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                autocomplete="off"
+                class="all-files__input-field"
+                required
+              />
+              <button class="all-files__btn">Get Started</button>
+            </form>
+          </div>
+
+          <div class="all-files__svg">
+            <img
+              src="images/illustration-1.svg"
+              class="all-files__img"
+              alt="illustration"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stay-pro">
+      <div class="row">
+        <div class="stay-pro__container">
+          <div class="stay-pro__content">
+            <h1 class="stay-pro__title">Stay productive, wherever you are</h1>
+            <p class="stay-pro__desc">
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+            <p class="stay-pro__desc">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required!
+            </p>
+
+            <div class="stay-pro__link">
+              <a href="#"
+                >See how Fylo works <img src="images/icon-arrow.svg"
+              /></a>
+            </div>
+
+            <blockquote class="stay-pro__quote">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+              <cite class="stay-pro__cite">
+                <div class="stay-pro__avatar">
+                  <img src="images/avatar-testimonial.jpg" alt="avatar" />
+                </div>
+
+                <div class="stay-pro__detail">
+                  <span class="stay-pro__author-name">Kyle Burton</span>
+                  <span class="stay-pro__author-position"
+                    >Founder & CEO, Huddle</span
+                  >
+                </div>
+              </cite>
+            </blockquote>
+          </div>
+
+          <div class="stay-pro__svg">
+            <img
+              src="images/illustration-2.svg"
+              class="all-files__img"
+              alt="illustration"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="get-access">
+      <div class="row">
+        <div class="get-access__container">
+          <div class="get-access__content">
+            <h1 class="get-access__title">Get early access today</h1>
+            <p class="get-access__desc">
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </p>
+          </div>
+          <div class="get-access__form">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="email@example.com"
+              class="get-access__input-field"
+              autocomplete="off"
+              required
+            />
+            <button class="get-access__btn">Get Started For Free</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="row">
+        <div class="footer__logo">
+          <img src="images/logo.png" alt="footer-logo" />
+        </div>
+
+        <div class="footer__container">
+          <div class="footer__contact-info">
+            <div class="footer__phone">
+              <img src="images/icon-phone.svg" alt="phone-icon" />
+              <span>Phone: +1-543-123-4567</span>
+            </div>
+            <div class="footer__email">
+              <img src="images/icon-email.svg" alt="email-icon" />
+              <span>example@fylo.com</span>
+            </div>
+          </div>
+
+          <div class="footer__nav">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">About Us</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Jobs</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Press</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Blog</a>
+              </li>
+            </ul>
+
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Contact Us</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Terms</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Privacy</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__social-link">
+            <a href="#" class="icon"><i class="ion-social-facebook"></i></a>
+            <a href="#" class="icon"><i class="ion-social-twitter"></i></a>
+            <a href="#" class="icon"
+              ><i class="ion-social-instagram-outline"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <p class="attribution">
+        <!--Add your twitter handle-->
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.twitter.com/iamwhitegod" target="_blank"
+          >Whitegod Kingsley</a
+        >.
+      </p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
